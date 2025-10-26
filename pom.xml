@@ -14,10 +14,13 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jar.finalName>PartnerPackages</jar.finalName>
     </properties>
 
     <build>
         <defaultGoal>clean package</defaultGoal>
+        <finalName>${jar.finalName}</finalName>
+        <directory>${project.basedir}/jar</directory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
