@@ -29,9 +29,17 @@ Edit `config.yml` to customize:
 - Java 8+
 
 ## Compatibility
-Tested on:
+### Confirmed Working Versions
 - Spigot 1.8.9
 - Spigot/Paper 1.18.2
+
+### Potential Compatibility
+- Spigot/Paper versions between 1.8.9 and 1.18.2
+- Other versions may work with minimal or no modifications
+
+### Notes
+- Tested primarily on Spigot/Paper servers
+- May require minor adjustments for other server implementations
 
 ## License
 [Insert License Here]
