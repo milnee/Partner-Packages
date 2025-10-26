@@ -25,8 +25,13 @@ Edit `config.yml` to customize:
 - `/package giveall <amount>`: Give packages to all online players
 
 ## Requirements
-- Spigot/Paper 1.18.2 or higher
+- Spigot/Paper 1.8.9 or higher
 - Java 8+
+
+## Compatibility
+Tested on:
+- Spigot 1.8.9
+- Spigot/Paper 1.18.2
 
 ## License
 [Insert License Here]
