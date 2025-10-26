@@ -28,6 +28,7 @@ dependency-reduced-pom.xml
 .mtj.tmp/
 
 # Package Files #
+!jar/*.jar
 *.jar
 !src/main/resources/lib/*.jar
 
