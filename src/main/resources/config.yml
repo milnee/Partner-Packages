@@ -1,0 +1,33 @@
+general:
+  material: ENDER_CHEST
+  name: "&2&lPartner Package"
+  message: "&2&lPackage&7 |&f You've won &r<item>&f." # doesnt work right now
+  
+  # Enable/Disable plugin features
+  enabled: true
+  
+  # Randomization settings
+  min-items-per-package: 1
+  max-items-per-package: 1
+  
+  # Broadcast settings
+  enable-broadcast: true
+  broadcast:
+    - "&2&lPartner Packages &f| &f%player% just opened a Partner Package!"
+    - "&7They received some awesome items!"
+
+packages:
+  test-package:
+    commands:
+      - "say hello"
+      - ""
+      - ""
+    items:
+      - "DIAMOND_CHESTPLATE 1 PROTECTION_ENVIRONMENTAL:2 DURABILITY:3 name:&bDiamond_Chestplate"
+  giftcard:
+    commands:
+      - "say &a%player% &fhas &aWON &f a giftcard WORTH &a$100!"
+      - ""
+      - ""
+    items:
+      - "BOOK 1 DURABILITY:100 name:&A$100_GIFT_CARD lore:&7Join_our_discord_to_claim_your_giftcard!"

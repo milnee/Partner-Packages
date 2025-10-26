@@ -1,0 +1,6 @@
+main: org.millen.partnerPackages.PackagePlugin
+name: PartnerPackages
+author: Millen
+version: 1.0
+commands:
+  package:
