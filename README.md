@@ -41,8 +41,5 @@ Edit `config.yml` to customize:
 - Tested primarily on Spigot/Paper servers
 - May require minor adjustments for other server implementations
 
-## License
-[Insert License Here]
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
